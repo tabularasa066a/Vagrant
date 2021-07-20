@@ -8,7 +8,7 @@
 `sudo docker run --name nginx00 -d -p 8080:80 nginx:latest`
 - ローカルのブラウザで以下にアクセス
 `http://localhost:8080`
-
+test
 ### ポート転送を行わない場合
 - 普通にsshアクセス
 `ssh vagrant@192.168.33.10`
