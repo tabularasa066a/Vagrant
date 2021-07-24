@@ -5,7 +5,7 @@
 # => vagrant provisionコマンドで出てくるようになる！！！
 $script = <<-'SCRIPT'
 sudo yum update -y
-sudo yum install -y unzip
+sudo yum install -y unzip git
 sudo yum install -y NetworkManager
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
