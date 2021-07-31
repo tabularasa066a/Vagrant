@@ -24,3 +24,9 @@ https://qiita.com/ftakao2007/items/b332f562b0ea74e9f97e
 `sudo docker run --name nginx00 -d -p 8080:80 nginx:latest`
 - ローカルのブラウザで以下にアクセス
 `http://192.168.33.10:8080`
+
+### Jupyter Lab
+- サーバ立ち上げ
+`jupyter lab --no-browser --ip=0.0.0.0`
+  - `--ip`オプションはlocalhost以外のアクセス時に必要
+- ホストPCのブラウザから`https://192.168.33.10:8889`にアクセス
